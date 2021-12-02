@@ -1,0 +1,125 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/yusifimanov/Desktop/Helicopter AR
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49295
+Successfully changed project path to: /Users/yusifimanov/Desktop/Helicopter AR
+/Users/yusifimanov/Desktop/Helicopter AR
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 128.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.3f1 (4bef613afd59)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/yusifimanov/Desktop/Helicopter AR/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+2021-12-02 11:06:40.563 Unity[1329:17818] Color LCD preferred device: Intel Iris Pro Graphics (low power)
+2021-12-02 11:06:40.563 Unity[1329:17818] Metal devices available: 1
+2021-12-02 11:06:40.563 Unity[1329:17818] 0: Intel Iris Pro Graphics (low power)
+2021-12-02 11:06:40.563 Unity[1329:17818] Using device Intel Iris Pro Graphics (low power)
+Initializing Metal device caps: Intel Iris Pro Graphics
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56329
+Begin MonoManager ReloadAssembly
+Error scanning for extension ivy.xml files: System.UnauthorizedAccessException: Access to the path '/Applications/Unity/PlaybackEngines/WebGLSupport/BuildTools/Emscripten_Mac/node' is denied.
+  at System.IO.__Error.WinIOError (System.Int32 errorCode, System.String maybeFullPath) [0x00129] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].HandleError (System.Int32 hr, System.String path) [0x00006] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].AddSearchableDirsToStack (System.IO.Directory+SearchData localSearchData) [0x00053] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.FileSystemEnumerableIterator`1[TSource].MoveNext () [0x0008e] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Collections.Generic.List`1[T]..ctor (System.Collections.Generic.IEnumerable`1[T] collection) [0x00077] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.InternalGetFileDirectoryNames (System.String path, System.String userPathOriginal, System.String searchPattern, System.Boolean includeFiles, System.Boolean includeDirs, System.IO.SearchOption searchOption, System.Boolean checkHost) [0x0000f] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.InternalGetFiles (System.String path, System.String searchPattern, System.IO.SearchOption searchOption) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.IO.Directory.GetFiles (System.String path, System.String searchPattern, System.IO.SearchOption searchOption) [0x00038] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.Modules.ModuleManager.LoadLegacyExtensionsFromIvyFiles () [0x000a5] in /Users/bokken/buildslave/unity/build/Editor/Mono/Modules/ModuleManager.cs:253 
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000788 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 112.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.144 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004683 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.949 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2939 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 188.0 MB.
+System memory in use after: 187.7 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 3414.
+Total: 3.873476 ms (FindLiveObjects: 0.425624 ms CreateObjectMapping: 0.315862 ms MarkObjects: 2.697092 ms  DeleteObjects: 0.432121 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Plugins/GitHub/Editor
+  artifactKey: Guid(cad92998c5182496e8b989b406d9f156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GitHub/Editor using Guid(cad92998c5182496e8b989b406d9f156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3289b152bbf51b9f16755b0e1134b6') in 0.006207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll
+  artifactKey: Guid(d516f2a1bec6a9645a084ef8c9237132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll using Guid(d516f2a1bec6a9645a084ef8c9237132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdfbec9183e14cd140a76413ef2e7978') in 1.499920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Plugins/GitHub
+  artifactKey: Guid(18e096a98c2704c40a818dd1214cd179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GitHub using Guid(18e096a98c2704c40a818dd1214cd179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f94447517bbf8fdee07ab89bda5ac9a') in 0.001747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Plugins/GitHub/Editor/big-logo@2x.png
+  artifactKey: Guid(f81094832d834c64d93b198cb16b6a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GitHub/Editor/big-logo@2x.png using Guid(f81094832d834c64d93b198cb16b6a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bfe66965893373d2e8fbd94bceefb99') in 1.561958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll
+  artifactKey: Guid(c743ae24ee231884887054d20ccdd0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll using Guid(c743ae24ee231884887054d20ccdd0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f6c953bfc6f3ac97cf8e22f9b323d9') in 0.002269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001576 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(720712be6e31c444f88f57bb85bf5fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(720712be6e31c444f88f57bb85bf5fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60448bc9e73cdc7e96b21697a5c71dc') in 0.001485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.587608 seconds.
+  path: Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll
+  artifactKey: Guid(863e1b9976c4e46d29bf83928b3a8ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll using Guid(863e1b9976c4e46d29bf83928b3a8ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fddeb49f87435ba17e449a4d0f449eec') in 0.001900 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
